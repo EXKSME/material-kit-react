@@ -20,11 +20,11 @@ const SORT_OPTIONS = [
 
 export default function Blog() {
   return (
-    <Page title="Dashboard: Blog | Minimal-UI">
+    <Page title="博客 | EXKSM">
       <Container>
         <Stack direction="row" alignItems="center" justifyContent="space-between" mb={5}>
           <Typography variant="h4" gutterBottom>
-            Blog
+            博客模块
           </Typography>
           <Button
             variant="contained"

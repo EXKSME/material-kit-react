@@ -47,10 +47,10 @@ export default function EcommerceShop() {
   };
 
   return (
-    <Page title="Dashboard: Products | Minimal-UI">
+    <Page title="产品 | EXKSM">
       <Container>
         <Typography variant="h4" sx={{ mb: 5 }}>
-          Products
+          产品模块
         </Typography>
 
         <Stack
