@@ -9,19 +9,14 @@ import MenuPopover from '../../components/MenuPopover';
 
 const LANGS = [
   {
+    value: 'cn',
+    label: '中文',
+    icon: '/static/icons/ic_flag_cn.svg'
+  },
+  {
     value: 'en',
-    label: 'English',
+    label: '英文',
     icon: '/static/icons/ic_flag_en.svg'
-  },
-  {
-    value: 'de',
-    label: 'German',
-    icon: '/static/icons/ic_flag_de.svg'
-  },
-  {
-    value: 'fr',
-    label: 'French',
-    icon: '/static/icons/ic_flag_fr.svg'
   }
 ];
 
