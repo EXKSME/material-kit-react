@@ -54,7 +54,7 @@ export default function UserListToolbar({ numSelected, filterName, onFilterName 
     >
       {numSelected > 0 ? (
         <Typography component="div" variant="subtitle1">
-          {numSelected} selected
+          {numSelected} 选中
         </Typography>
       ) : (
         <SearchStyle

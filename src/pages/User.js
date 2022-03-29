@@ -143,7 +143,7 @@ export default function User() {
             to="#"
             startIcon={<Iconify icon="eva:plus-fill" />}
           >
-            New User
+            新建用户
           </Button>
         </Stack>
 
