@@ -27,23 +27,23 @@ export default function AppConversionRates() {
     },
     xaxis: {
       categories: [
-        'Italy',
-        'Japan',
-        'China',
-        'Canada',
-        'France',
-        'Germany',
-        'South Korea',
-        'Netherlands',
-        'United States',
-        'United Kingdom'
+        '意大利',
+        '日本',
+        '中国',
+        '加拿大',
+        '法国',
+        '德国',
+        '韩国',
+        '冰岛',
+        '美国',
+        '英国'
       ]
     }
   });
 
   return (
     <Card>
-      <CardHeader title="Conversion Rates" subheader="(+43%) than last year" />
+      <CardHeader title="全球转化率" subheader="(+43%) 相比去年" />
       <Box sx={{ mx: 3 }} dir="ltr">
         <ReactApexChart type="bar" series={CHART_DATA} options={chartOptions} height={364} />
       </Box>
