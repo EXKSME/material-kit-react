@@ -13,17 +13,17 @@ import account from '../../_mocks_/account';
 
 const MENU_OPTIONS = [
   {
-    label: 'Home',
+    label: '主页',
     icon: 'eva:home-fill',
     linkTo: '/'
   },
   {
-    label: 'Profile',
+    label: '个人中心',
     icon: 'eva:person-fill',
     linkTo: '#'
   },
   {
-    label: 'Settings',
+    label: '设置',
     icon: 'eva:settings-2-fill',
     linkTo: '#'
   }
