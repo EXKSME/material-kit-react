@@ -59,7 +59,7 @@ function NewsItem({ news }) {
 export default function AppNewsUpdate() {
   return (
     <Card>
-      <CardHeader title="News Update" />
+      <CardHeader title="新闻动态" />
 
       <Scrollbar>
         <Stack spacing={3} sx={{ p: 3, pr: 0 }}>
@@ -79,7 +79,7 @@ export default function AppNewsUpdate() {
           component={RouterLink}
           endIcon={<Iconify icon="eva:arrow-ios-forward-fill" />}
         >
-          View all
+          查看更多
         </Button>
       </Box>
     </Card>
