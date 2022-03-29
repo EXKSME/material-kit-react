@@ -7,37 +7,37 @@ const getIcon = (name) => <Iconify icon={name} width={22} height={22} />;
 
 const sidebarConfig = [
   {
-    title: 'dashboard',
+    title: '主页',
     path: '/dashboard/app',
     icon: getIcon('eva:pie-chart-2-fill')
   },
   {
-    title: 'user',
+    title: '用户模块',
     path: '/dashboard/user',
     icon: getIcon('eva:people-fill')
   },
   {
-    title: 'product',
+    title: '产品模块',
     path: '/dashboard/products',
     icon: getIcon('eva:shopping-bag-fill')
   },
   {
-    title: 'blog',
+    title: '博客模块',
     path: '/dashboard/blog',
     icon: getIcon('eva:file-text-fill')
   },
   {
-    title: 'login',
+    title: '登陆页',
     path: '/login',
     icon: getIcon('eva:lock-fill')
   },
   {
-    title: 'register',
+    title: '注册页',
     path: '/register',
     icon: getIcon('eva:person-add-fill')
   },
   {
-    title: 'Not found',
+    title: '404页面',
     path: '/404',
     icon: getIcon('eva:alert-triangle-fill')
   }
