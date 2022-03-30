@@ -25,6 +25,7 @@
     }
   },
   "rules": {
+    "prettier/prettier": "off",
     "import": 0,
     "max-len": 0,
     "no-alert": 0,
@@ -59,15 +60,6 @@
       1,
       {
         "ignoreRestSiblings": false
-      }
-    ],
-    "prettier/prettier": [
-      2,
-      {
-        "printWidth": 100,
-        "singleQuote": true,
-        "trailingComma": "none",
-        "tabWidth": 2
       }
     ]
   }
