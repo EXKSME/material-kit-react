@@ -57,7 +57,7 @@ function SiteItem({ site }) {
 export default function AppTrafficBySite() {
   return (
     <Card>
-      <CardHeader title="Traffic by Site" />
+      <CardHeader title="社交平台占比" />
       <CardContent>
         <Grid container spacing={2}>
           {SOCIALS.map((site) => (
