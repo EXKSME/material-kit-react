@@ -2,7 +2,7 @@ import {LOCALES} from '../locales'
 
 export default{
     [LOCALES.CHINESE]:{
-        "BUTTON":"按钮"
+        "testmessage":"中文测试"
     }
 
 }
